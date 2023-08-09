@@ -1,6 +1,6 @@
 import React from "react";
 
-function Testimonios(){
+export function Testimonio(){
     return(
         <div className="contenedor">
             <img className="imagen" src={require("../imagenes/emma.png")} alt="foto"/>
@@ -12,5 +12,3 @@ function Testimonios(){
         </div>
     )
 }
-
-export default Testimonios
