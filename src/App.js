@@ -1,5 +1,6 @@
 import './App.css';
 import {Testimonio} from './componentes/testimonios'
+import { dato1, dato2, dato3 } from './componentes/datos';
 
 function App() {
   return (
@@ -7,28 +8,28 @@ function App() {
       <div className='contenedor-principal'>
         <h1>Esto es lo que dicen nuestros estudiantes</h1>
         <Testimonio 
-          nombre='Shawn Wang'
-          pais='Singapur'
-          imagen='shawn'
-          cargo='Ingeniero de software'
-          empresa='Amazon'
-          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente' />
+          nombre= {dato1.nombre}
+          pais= {dato1.pais}
+          imagen= {dato1.imagen}
+          cargo= {dato1.cargo}
+          empresa= {dato1.empresa}
+          testimonio= {dato1.testimonio} />
         
         <Testimonio 
-          nombre='Sarah Chima'
-          pais='Nigeria'
-          imagen='sarah'
-          cargo='Ingeniero de software'
-          empresa='Chackdesk'
-          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente' />
+          nombre= {dato2.nombre}
+          pais= {dato2.pais}
+          imagen= {dato2.imagen}
+          cargo= {dato2.cargo}
+          empresa= {dato2.empresa}
+          testimonio= {dato2.testimonio} />
         
         <Testimonio 
-          nombre='Emma Bostian'
-          pais='Suecia'
-          imagen='emma'
-          cargo='Ingeniero de software'
-          empresa='Spotify'
-          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente' />
+          nombre= {dato3.nombre}
+          pais= {dato3.pais}
+          imagen= {dato3.imagen}
+          cargo= {dato3.cargo}
+          empresa= {dato3.empresa}
+          testimonio= {dato3.testimonio} />
         
       </div>
     </div>
