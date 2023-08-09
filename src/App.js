@@ -12,7 +12,7 @@ function App() {
           imagen='shawn'
           cargo='Ingeniero de software'
           empresa='Amazon'
-          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente'/>
+          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente' />
         
         <Testimonio 
           nombre='Sarah Chima'
@@ -20,7 +20,7 @@ function App() {
           imagen='sarah'
           cargo='Ingeniero de software'
           empresa='Chackdesk'
-          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente'/>
+          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente' />
         
         <Testimonio 
           nombre='Emma Bostian'
@@ -28,7 +28,7 @@ function App() {
           imagen='emma'
           cargo='Ingeniero de software'
           empresa='Spotify'
-          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente'/>
+          testimonio='Hola, me encanta tu curso y como enseñas, se logra aprender muy bien. Quería además recomendarte que hicieras una actualización al uso de "create-react-app" ya que en la nueva documentación este ya no es recomendado por react y ha desaparecido de allí, dice que se debería de usar con algún framework pero creo que para aprender también es excelente' />
         
       </div>
     </div>
