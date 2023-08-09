@@ -12,3 +12,5 @@ function Testimonios(){
         </div>
     )
 }
+
+export default Testimonios
