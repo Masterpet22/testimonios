@@ -4,7 +4,9 @@ import '../stylesheets/testimonio.css'
 export function Testimonio(props){
     return(
         <div className="contenedor-testimonio">
-            <img className="imagen-testimonio" src={require(`../imagenes/testimonio-${props.imagen}.png`)} alt="foto" />
+            <div className="imagen-testimonio" aria-hidden="true">
+                {props.nombre.split(' ').map((parte) => parte[0]).join('').slice(0, 2)}
+            </div>
             <div className="contenedor-texto-testimonio">
                 <p className="nombre-testimonio"><b>{props.nombre}</b> en {props.pais}</p>
                 <p className="cargo-testimonio">{props.cargo} en <b>{props.empresa}</b></p>
